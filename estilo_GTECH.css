@@ -1,0 +1,375 @@
+@charset "UTF-8";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #F21D2F;
+	background-image: radial-gradient(circle,#F21D2F,#ac1522);
+	height: 50px;
+	padding: 50px;
+	position: sticky;
+	top: 0%;
+	box-shadow: 0px 5px 15px #000000;
+	z-index: 3;
+}
+
+#button_contato{
+	background-color: #F21D2F;
+	color: #F2F2F2;
+	border-radius: 10px;
+	border-color: #F2F2F2;
+	padding: 10px;
+}
+
+#logo{
+	filter: drop-shadow(1px 5px 4px white); /*para sombrear imagem png*/
+	width: 210pt;
+	top: 10px;
+	right: 619px;
+}
+
+#Redes_sociais{
+	display: flex;
+	width: 130px;
+	justify-content: space-between;
+	background-color: #ac1522;
+}
+
+
+h1#titulo_apresentacao{
+	font-size: 59px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #D9626B;
+	background-color: #260108;
+}
+
+#titulo-loja{
+	margin-top: 200px;
+}
+
+h2#subtitulo_apresentacao{
+	font-size: 34px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #D9626B;
+	background-color: #260108;
+}
+
+
+main{
+	background-color: #260108;
+	color: #F2F2F2;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin: 100px 0 200px 0;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  background-image: radial-gradient(circle,#260108,#F21D2F);
+}
+
+.localizacao{
+	margin-top: 300px;
+	
+}
+
+.Horarios{
+  padding: 20px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.Telefone{
+  padding: 20px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.chip{
+	width: 200px;
+	height: 200px;
+}
+
+.paragrafo-principal{
+	width: 500pt;
+	margin: auto;
+	text-align: justify;
+	margin-bottom: 213px;
+	font-size: larger;
+}
+
+
+
+
+img#frente-da-empresa{
+	color: rgba(0, 0, 0, 0.338);
+	
+	
+}
+
+div#imagem-de-frente-da-loja{
+	background-image: url(imagens/Frente-empresa.jpg);
+	background-repeat: no-repeat;
+	background-position: center center; /*Deixa a imagem de fundo centralizada.*/
+	background-size: cover;
+	height: 574px;
+}
+
+/*Configuracao itens loja*/
+span{
+	
+	margin: 5px;
+	align-items: center;
+	padding: 15px;
+	background-image: radial-gradient(circle,#260108,#F21D2F);
+	border: solid;
+	border-color: black;
+	border-radius: 10px;
+	width: 300px;
+	height: 306px;
+	display: none;
+	
+}
+
+#item-loja6{
+	display: relative;
+	top: 10px;
+}
+
+
+#btn-red{
+	font-family: Arial, Helvetica, sans-serif;
+	border: none;
+	padding: 10px;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #F21D2F;
+	color: #F2F2F2;
+	box-shadow: 0 5px 0 #99141f;
+}
+
+#btn-red:hover{
+	
+	background-color: #b41724;
+	color: #F2F2F2;
+	box-shadow: 0 5px 0 #99141f;
+}
+
+#btn-red:active{
+	position: relative;
+	top: 5px;
+	box-shadow: none;
+}
+
+
+#itens-loja{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 70px;
+	max-width: 1241px;
+}
+
+
+
+ul{
+	padding: 0px;
+}
+
+footer{
+	padding: 20px;
+	padding-top: 100px;
+	background-image: linear-gradient(to top,#000000,#260108);
+	color:#F2F2F2
+	
+}
+
+#final{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-final{
+	width: 274px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+}
+.formulario{
+	width: 749px;
+	padding: 50px 100px 50px 100px;
+	border-radius: 38px;
+	margin: auto;
+}
+
+
+.bg-primary { /*edição cor bootstrap*/
+  --bs-bg-opacity: 1;
+  background-color: #260108 !important;
+}
+
+.d-block{
+	margin: auto;
+}
+
+#carrocel2{
+	display: none;
+}
+
+@media(max-width: 685px){
+	header{
+		height: 90px;
+		padding: 0px;
+		justify-content: space-evenly;
+	}
+
+	div#image-de-frente-da-loja{
+		height: 446px;
+	}
+
+	.m-5{
+		display: none;
+	}
+
+	#button_loja{
+		background-color: #F21D2F;
+		color: #F2F2F2;
+		border-radius: 10px;
+		border-color: #F2F2F2;
+		padding: 5px;
+		font-size: smaller;
+	}
+	
+	#logo{
+		width: 110pt;
+		top: 10px;
+		right: 619px;
+	}
+	
+	#Redes_sociais{
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		width: 50px;
+		top: 511px;
+		right: 10px;
+		border-radius: 20px;
+	}
+	
+
+	section{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		color: white;
+		margin: 100px 16px 200px 16px;
+		padding: 20px 45px 20px 45px;
+		text-align: center;
+		background-image: radial-gradient(circle,#260108,#F21D2F);
+		border-radius: 47px;
+	}
+
+	.localizacao{
+		margin-top: 300px 0 200px 0;
+		border-radius: 27px;
+	}
+
+	.chip{
+		margin: auto;
+	}
+
+
+	.paragrafo-principal{
+		width: 200pt;
+		margin: auto;
+		text-align: justify;
+		margin-bottom: 100px;
+		font-size: large;
+	}
+	h1#titulo_apresentacao{
+		font-size: 25px;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #D9626B;
+		background-color: #260108;
+	}
+	h2#subtitulo_apresentacao{
+		font-size: 20px;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #D9626B;
+		background-color: #260108;
+	}
+
+	.formulario{
+		width: 300px;
+		padding: 0px;	
+		border-radius: 38px;
+	}
+
+	form{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding: 25px;
+	
+	}
+	
+	input{
+		border-radius: 10px;
+	}
+
+	button{
+		border-radius: 30px;
+	}
+
+	textarea{
+		border-radius: 30px;
+		padding: 9px;
+		margin: 10px 0px 10px 0px;
+	}
+
+	#carrocel1{
+		display: none;
+	}
+
+	#carrocel2{
+		display: block;
+	}
+
+	#itens-loja{
+		display: flex;
+		flex-direction: column;
+	
+	}
+	
+}
