@@ -7,7 +7,6 @@ A empresa escolhida foi a GTech tecnologia eletrônica.
 
 ## Definição do projeto
 O projeto escolhido foi uma aplicação web cuja proposta foi a criação de um novo site para a empresa contendo novos elementos informativos e gráficos. 
-A empresa escolhida havia uma grande necessidade em criar um novo site com um design mais atrativo ao usuário e informações importantes como localização, contato, números de telefones atualizados, hiperlinks para outras redes e entre outras melhorias. 
 
 Anteriormente, o site da empresa escolhida mantinha apenas duas tecnologias em funcionamento que eram as linguagens HTML5 e CSS3. Após o término do projeto, foi implementado novas linguagens e um framework ao site.
 
