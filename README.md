@@ -20,7 +20,7 @@ Anteriormente, o site da empresa escolhida mantinha apenas duas tecnologias em f
 - Gimp
 - Canvas
 
-##URL Site:
+## URL Site:
 https://lucassouza24.github.io/Site-Gtech/
 
 ![site-novo](https://github.com/LucasSouza24/Site-Gtech/assets/79807084/0ad40d73-da08-4c7a-8ab2-5b351ac29d10)
